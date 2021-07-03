@@ -11,6 +11,5 @@ const frutas = [
   },
 ];
 
-const stringfyFrutas = JSON.stringify(frutas)
-console.log(stringfyFrutas)
-console.log(typeof(stringfyFrutas))
+const newFrutas = {...frutas[0], color:"rojo"}
+console.log(newFrutas)
